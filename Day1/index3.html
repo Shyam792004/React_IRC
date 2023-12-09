@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Practice</title>
+    <style>
+      body {
+        margin: 0; /* Remove default margin */
+        padding: 0; /* Remove default padding */
+      }
+
+      nav {
+        position: fixed; /* Fixed position so that it stays at the top right */
+        top: 20px;
+        right: 20px;
+        padding: 10px;
+        background-color: black; /* Add a background color for visibility */
+        color: white;
+        width: 100px;
+        text-align: center;
+        text-decoration: none;
+
+        border-radius: 50px; /* Set text color */
+      }
+
+      /*.container {
+        margin-top: 60px; /* Adjust margin to prevent content from being covered by the fixed nav bar */
+      /* }*/
+
+      /* Add more styles as needed */
+    </style>
+  </head>
+  <body>
+    <h1>REGISTRATION</h1>
+    <!-- <ul>
+      <li><a class="active" href="#home">Home</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#about">About</a></li>
+    </ul> -->
+
+    <nav>
+      <ul>
+        <a href="index2.html">login</a>
+      </ul>
+    </nav>
+    <form class="container">
+      <h2>register</h2>
+      <input
+        type="text"
+        id="username"
+        placeholder="Username"
+        class="inp-class"
+      />
+      <input type="email" placeholder="email-id" class="inp-class" />
+
+      <input type="password" placeholder="Password" class="inp-class" />
+
+      <input
+        type="number"
+        placeholder="ph-no"
+        class="inp-class"
+        min="0"
+        max="10"
+      />
+
+      <button
+        value="register"
+        class="inpbtn-class"
+        onclick="register()"
+        class="inpbtn-class"
+      >
+        register
+      </button>
+    </form>
+    <!-- <button onclick="show()">show user</button> -->
+  </body>
+  <script>
+    function register() {
+      console.log("hiii", document.getElementById("username").value);
+    }
+  </script>
+  <!-- <script>
+    function register() {
+      let a = document.getElementById("uname").value;
+      let q2 = document.getElementById("psd").value;
+      if (q2 == "123") {
+        alert("Correct Password");
+      } else {
+        alert("Incorrect Password");
+      }
+    }
+    function show() {
+      alert("ThankYou for register");
+    }
+     function register()
+    {
+        Let x=document.getElementById("usernmae").value;
+        Let n1=document.getElementById("usernmae").value;
+        Let n2=document.getElementById("usernmae").value;
+    } 
+  </script> -->
+</html>

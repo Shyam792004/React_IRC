@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Practice</title>
+  </head>
+  <body>
+    <div class="container1">
+      <h1>LOGIN</h1>
+
+      <form class="container">
+        <h2>login</h2>
+        <input
+          type="text"
+          id="username"
+          placeholder="Username"
+          class="inp-class"
+        />
+
+        <input type="password" placeholder="Password" class="inp-class" />
+
+        <!-- <input type="number" placeholder="ph-no" class="inp-class" />
+
+        <input type="email" placeholder="address" class="inp-class" /> -->
+
+        <!-- <input
+          type="Address"
+          name="Address"
+          placeholder="Address"
+          class="inp-class"
+        /> -->
+
+        <button
+          type="submit"
+          value="register"
+          class="inpbtn-class"
+          onclick="show()"
+        >
+          login
+        </button>
+        <!-- <button onclick="show()">
+            <div class="sb"><input type="submit" value="login">
+            </button>
+        </div>
+        <p id="user"></p> -->
+      </form>
+    </div>
+  </body>
+  <script>
+    function register() {
+      let x = document.getElementById("username").value;
+      alert("login!");
+    }
+    function show() {
+      alert("THANK YOU FOR LOGIN!");
+    }
+  </script>
+</html>
