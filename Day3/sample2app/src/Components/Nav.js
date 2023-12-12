@@ -27,7 +27,7 @@ const Nav = () => {
   return (
     <>
       <nav class="navbar">
-        <h1 class="logo">Cinematrix</h1>
+        <h1 class="logo">Painting</h1>
         <ul>
           <ul>
             <a href="index3.html">REGISTER</a>

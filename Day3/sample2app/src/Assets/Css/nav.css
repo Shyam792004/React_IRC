@@ -1,52 +1,15 @@
-/* *{
-    background: #11998e;  /* fallback for old browsers */
-    /* background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  Chrome 10-25, Safari 5.1-6 */
-    /* background: linear-gradient(to right, #38ef7d, #11998e); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
-/* } */ 
-/* body{
-    
-    /* background: #11998e;  /* fallback for old browsers */
-/* background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  Chrome 10-25, Safari 5.1-6 */
-/* background: linear-gradient(to right, #38ef7d, #11998e); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
-/* background: #333333;  fallback for old browsers */
-/* background: -webkit-linear-gradient(to right, #dd1818, #333333);  /* Chrome 10-25, Safari 5.1-6 */
-/* background: linear-gradient(to right, #dd1818, #333333); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-    /* background-repeat: no-repeat;
-    background-size: cover;
-} */
-/* .container
-{
-    background: #333333;  /* fallback for old browsers */
-/* background: -webkit-linear-gradient(to right, #dd1818, #333333);  Chrome 10-25, Safari 5.1-6 */
-/* background: linear-gradient(to right, #dd1818, #333333); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-/* } */ 
-/* body{
-    background-color:aliceblue;
-    align-items: center;
-    justify-content: center; /*y-axis*/
-    /* flex-direction: column;
-    background-color: #8EC5FC;
-    height:100vh; */
-/* background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%); */
-/* background-image: url(C:\Users\Suganya\OneDrive\Documents\GitHub\React_IRC\Day3\sample2app\src\Assets\img\bg.jpg); */
-    
-    
-  
-  /* } */
   body {
     background-color: aliceblue;
     align-items: center;
-    justify-content: center; /* y-axis */
+    justify-content: center; 
     flex-direction: column;
     background-color: #8EC5FC;
 }
 
 .navbar{
     display: flex;
-    background: #040d15;  /* fallback for old browsers */
+    background: #040d15;  
 
     list-style-type: none;
     padding: 0px;
@@ -81,16 +44,11 @@
     font-size: large;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-/* .navbar a:hover{
-    background-color: rgb(32, 42, 186);
-} */
-/* .navbar li{
-    float: right;
-} */
+
 .img1{
     width: 600px;
     height: 450px;
-    /* margin-top:10%; */
+   
     padding-left:80px;
 }
 .abt p{
