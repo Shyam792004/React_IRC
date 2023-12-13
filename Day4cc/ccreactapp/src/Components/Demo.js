@@ -10,7 +10,7 @@ import galaxyImage from "../Assets/css/img4.jpg";
 
 const Demo = () => {
   return (
-    <div>
+    <>
       <nav className="navbar">
         <div className="navdiv">
           <Link to="/">
@@ -52,7 +52,7 @@ const Demo = () => {
       <div>
         <main className="page-content">
           <div className="card">
-            <div className="content">
+            <div className="content1">
               <img src={mountainImage} alt="Mountain View" />
               <h2 className="title">Mountain View</h2>
               <p className="copy">
@@ -63,7 +63,7 @@ const Demo = () => {
             </div>
           </div>
           <div className="card">
-            <div className="content">
+            <div className="content1">
               <img src={beachImage} alt="To The Beach" />
               <h2 className="title">To The Beach</h2>
               <p className="copy">
@@ -73,7 +73,7 @@ const Demo = () => {
             </div>
           </div>
           <div className="card">
-            <div className="content">
+            <div className="content1">
               <img src={desertImage} alt="Desert Destinations" />
               <h2 className="title">Desert Destinations</h2>
               <p className="copy">It's the desert you've always dreamed of</p>
@@ -81,7 +81,7 @@ const Demo = () => {
             </div>
           </div>
           <div className="card">
-            <div className="content">
+            <div className="content1">
               <img src={galaxyImage} alt="Explore The Galaxy" />
               <h2 className="title">Explore The Galaxy</h2>
               <p className="copy">
@@ -92,7 +92,7 @@ const Demo = () => {
           </div>
         </main>
       </div>
-    </div>
+    </>
   );
 };
 

@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 * {
+
+    /* opacity: 0.35; */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -12,12 +14,12 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-image: url(login.jpg);
+  background-image: url(bgA.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  /* opacity: 0.35; */
 }
-
 section {
     position: relative;
     max-width: 400px;
