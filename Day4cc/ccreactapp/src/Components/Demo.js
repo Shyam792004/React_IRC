@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom"; // Import Link from react-router-dom
+import { Link } from "react-router-dom";
 import "../Assets/css/style.css";
 import "../Assets/css/style1.css";
 
@@ -37,7 +37,7 @@ const Demo = () => {
               <li>ContactUs</li>
             </Link>
           </ul>
-          <Link to="/login">
+          <Link to="/">
             <button>
               Login <i className="fas fa-user"></i>
             </button>

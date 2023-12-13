@@ -7,21 +7,21 @@ nav{
   display: flex;
   justify-content:space-between;
   align-items: center;
-  width: 95vw;
-  padding: 10px 20px;
+  width: 70vw;
+  padding: 10px 20px ;
   border-radius: 50px;
   
   
   margin-top:0;
-  background-color: black; /* Change the background color as needed */
-  color: white; /* Change the text color as needed */
+  background-color: black; 
+  color: white; 
 }
 
 .navdiv ul {
   list-style: none;
   display: flex;
   justify-content: center;
-  /* display:inline-block; */
+
   margin: 0;
   padding: 0;
 }
@@ -29,12 +29,13 @@ nav{
 .navdiv ul li {
   margin-right: 20px;
   font-size: 16px;
+  
 
 }
 
 .navdiv a {
   text-decoration: none;
-  color: white; /* Change the text color as needed */
+  color: white; 
 }
 
 .navdiv a:hover {
@@ -43,14 +44,13 @@ nav{
 
 .navdiv button {
   
-  background-color: blue ;/* Change the button background color as needed */
-  color: white; /* Change the button text color as needed */
-  /* border: none; */
+  background-color: blue ;
+  color: white; 
   padding: 10px 20px;
-  
+  justify-content:left;
   cursor: pointer;
 }
 
 .navdiv button:hover {
-  background-color: blue; /* Change the button background color on hover as needed */
+  background-color: blue; 
 }
