@@ -1,4 +1,8 @@
 
+body{
+  height: 100px;
+  /* width: 10px; */
+}
 nav{
   margin-top:-16rem;
 
