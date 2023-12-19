@@ -1,0 +1,21 @@
+/* Home.css */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  color: white;
+}
+
+.home-container {
+  display: flex;
+  padding-top: 80px;
+  padding-left: 80px;
+  width: 221vh;
+  height: 100vh;
+  background-image: url('home.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
