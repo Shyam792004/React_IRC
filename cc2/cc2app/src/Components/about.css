@@ -1,0 +1,32 @@
+/* about.css */
+
+.about-container {
+    height: 1000px;
+    max-width: 1600px;
+    margin-top: 15px;
+    /* margin: 100px; */
+    padding: 130px 40px 0 165px; /* Adjusted padding values */
+    /* background-image: url('path/to/your/image.jpg'); */ /* Uncomment and update the path to your image */
+    background-color: aliceblue;
+    background-position: center;
+    color: black; /* Set text color to contrast with the background */
+  }
+
+  
+  h1 {
+    color: black; /* Set heading color to contrast with the background */
+  }
+  
+  p {
+    line-height: 1.6;
+    margin-bottom: 18px;
+  }
+  h2.about-heading {
+    margin-top: 24px; /* Add margin-top to create space before "Our Team" heading */
+    color: black !important; /* Use !important to ensure this style takes precedence */
+  }
+  h1.about-heading {
+    margin-top: 24px; /* Add margin-top to create space before "Our Team" heading */
+    color: black !important; /* Use !important to ensure this style takes precedence */
+  }
+  

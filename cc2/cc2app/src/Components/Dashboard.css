@@ -1,5 +1,28 @@
-/* Dashboard.css */
-h2 {
-    color: #333;
-  }
-  
+/* Home.css */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.home-container {
+  display: flex;
+  position: relative; /* Ensure the container is positioned relative to enable z-index */
+  padding-top: 80px;
+  padding-left: 80px;
+  width: 221vh;
+  height: 743px;
+  background-image: url('home.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1; /* Set a higher z-index for the container */
+}
+
+.center1 {
+  position: relative; /* Ensure the text container is positioned relative */
+  z-index: 2; /* Set a higher z-index for the text container to overlay the background */
+}
+
+h3 {
+  color: white;
+}
