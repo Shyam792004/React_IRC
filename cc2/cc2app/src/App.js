@@ -10,6 +10,8 @@ import Navbar from "./Components/Navbar";
 import Offers from "./Components/Offers";
 import Register from "./Components/Register";
 import Rooms from "./Components/Rooms";
+import Sidebar from "./Components/Sidebar";
+import Gallery from "./Components/Gallery";
 
 function App() {
   return (
@@ -19,8 +21,9 @@ function App() {
           path="/"
           element={
             <>
-              <Navbar />
+              <Sidebar />
               <Home />
+              <Navbar />
             </>
           }
         />
@@ -29,6 +32,7 @@ function App() {
           element={
             <>
               <Navbar />
+              <Sidebar />
               <About />
             </>
           }
@@ -38,6 +42,7 @@ function App() {
           element={
             <>
               <Navbar />
+              <Sidebar />
               <Contact />
             </>
           }
@@ -47,6 +52,7 @@ function App() {
           element={
             <>
               <Navbar />
+              <Sidebar />
               <Dashboard />
             </>
           }
@@ -56,7 +62,18 @@ function App() {
           element={
             <>
               <Navbar />
+              <Sidebar />
               <Foods />
+            </>
+          }
+        />
+        <Route
+          path="/gallery"
+          element={
+            <>
+              <Navbar />
+              <Sidebar />
+              <Gallery />
             </>
           }
         />
@@ -66,6 +83,7 @@ function App() {
           element={
             <>
               <Navbar />
+              <Sidebar />
               <Offers />
             </>
           }
@@ -76,6 +94,8 @@ function App() {
           element={
             <>
               <Navbar />
+              <Sidebar className="rooms-page" />{" "}
+              {/* Added the new class name */}
               <Rooms />
             </>
           }

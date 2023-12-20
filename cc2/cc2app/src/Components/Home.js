@@ -13,7 +13,7 @@ const Home = () => {
 
         <Navbar />
         <div className="center1">
-          <h1>Welcome to LeMeridean</h1>
+          <h3>Welcome to LeMeridean</h3>
         </div>
       </div>
     </div>

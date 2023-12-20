@@ -18,6 +18,7 @@ const Login = () => {
 
     // Handle regular login logic here
     if (email === "shyam@gmail.com" && password === "shyam79") {
+      // Navigate to the home page after successful login
       navigate("/");
     } else {
       // Display appropriate error messages
@@ -68,9 +69,7 @@ const Login = () => {
         </div>
         <button type="submit">Log in</button>
         <div className="register">
-          <p>
-            Don't have an account <Link to="/register">Register</Link>
-          </p>
+          Don't have an account <Link to="/register">Register</Link>
         </div>
       </form>
     </div>

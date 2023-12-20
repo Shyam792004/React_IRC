@@ -111,6 +111,11 @@ input:valid ~ label {
 .forget label input {
   margin-right: 3px;
 }
+.forget input[type="checkbox"] {
+
+  margin-bottom: -10px; 
+}
+
 
 .forget a {
   color: #fff;
