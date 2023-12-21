@@ -29,44 +29,76 @@ const AboutPage = () => {
         providing personalized services and exceeding the expectations of our
         valued guests.
       </p>
+      <div className="about-headingA">
+        <h2 className="about-heading1">What Sets Us Apart</h2>
+        <ul>
+          <li>
+            <h4>Guest Services:</h4>
+            {/* <img
+              src="https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt="sd"
+            /> */}
+            <img
+              src={
+                "https://plus.unsplash.com/premium_photo-1661416415130-2e6cf748dff2?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aG90ZWwlMjAlMjByZWNlcHRpb258ZW58MHx8MHx8fDA%3D"
+              }
+              alt="Informational"
+              style={{ maxWidth: "95%", maxHeight: "400px" }}
+            />
+          </li>
+          <li>
+            <h4>TastyFoods</h4>
+            <img
+              src={
+                "https://images.unsplash.com/photo-1605651531144-51381895e23d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHJvb20lMjBzZXJ2aWNlfGVufDB8fDB8fHww"
+              }
+              alt="Informational"
+              style={{ maxWidth: "100%", maxHeight: "400px" }}
+            />
+          </li>
+          <li>
+            <h4>Room Serives:</h4>
+            <img
+              src={
+                "https://media.istockphoto.com/id/1225818780/photo/housekeeper-making-the-bed-at-a-hotel.jpg?s=2048x2048&w=is&k=20&c=7WAOmjubymKP9oFODMxqo7WqM83PaOzmcMyU-vrlXF4="
+              }
+              alt="Informational"
+              style={{ maxWidth: "100%", maxHeight: "400px" }}
+            />
+          </li>
+          <li>
+            <h4>Views From Us:</h4>
+            <img
+              src={
+                "https://images.unsplash.com/photo-1670540797398-8083557d2323?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bW91bnRhaW4lMjB2aWV3JTIwZnJvbSUyMGhvdGVsfGVufDB8fDB8fHww"
+              }
+              alt="Informational"
+              style={{ maxWidth: "100%", maxHeight: "400px" }}
+            />
+          </li>
+        </ul>
 
-      <h2 className="about-heading">What Sets Us Apart</h2>
-      <ul>
-        <li>
-          <strong>Luxurious Accommodations:</strong> Experience comfort in our
-          meticulously designed rooms and suites, each offering a blend of
-          modern amenities and timeless elegance.
-        </li>
-        <li>
-          <strong>Exquisite Dining:</strong> Indulge your senses with a culinary
-          journey at our world-class restaurants, where our chefs curate dishes
-          that delight the palate.
-        </li>
-        <li>
-          <strong>State-of-the-Art Facilities:</strong> Whether you're here for
-          business or leisure, our facilities cater to your every need. From
-          conference rooms to recreational spaces, we have it all.
-        </li>
-        <li>
-          <strong>Commitment to Sustainability:</strong> LeMeridean is proud to
-          embrace sustainable practices, from energy-efficient systems to
-          responsible sourcing. We believe in preserving the environment for
-          future generations.
-        </li>
-      </ul>
-
-      <h2 className="about-heading">Our Team</h2>
-      <p>
-        Meet the faces behind LeMeridean - a passionate team dedicated to
-        ensuring your stay is nothing short of extraordinary. Our staff embodies
-        the spirit of hospitality, always ready to assist and make your
-        experience truly memorable.
-      </p>
-
-      <p>
-        Thank you for choosing LeMeridean. We look forward to welcoming you with
-        open arms and creating lasting memories together.
-      </p>
+        <h2 className="about-heading2">Our Team</h2>
+        <p>
+          Meet the faces behind LeMeridean - a passionate team dedicated to
+          ensuring your stay is nothing short of extraordinary. Our staff
+          embodies the spirit of hospitality, always ready to assist and make
+          your experience truly memorable.
+        </p>
+        <img
+          src="https://images.unsplash.com/photo-1510146758428-e5e4b17b8b6a?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8dGVhbXxlbnwwfHwwfHx8MA%3D%3D"
+          alt="Our Team"
+          style={{
+            paddingLeft: "230px",
+            maxWidth: "3500px",
+            maxHeight: "1800px",
+          }}
+        />
+        <p>
+          Thank you for choosing LeMeridean. We look forward to welcoming you
+          with open arms and creating lasting memories together.
+        </p>
+      </div>
     </div>
   );
 };

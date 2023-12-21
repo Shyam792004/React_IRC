@@ -16,15 +16,17 @@ const Navbar = () => {
         &#9776;
       </div>
 
-      <div className="logo">LeMeridean</div>
+      <div className="logo">
+        <Link to="/">LeMeridean</Link>
+      </div>
       <div className="navhor">
         <ul>
           <li className="other-link">
-            <Link to="/">Home</Link>
+            <Link to="/home">Home</Link>
           </li>
-          <li className="other-link">
+          {/* <li className="other-link">
             <Link to="/foods">Food</Link>
-          </li>
+          </li> */}
           <li className="other-link">
             <Link to="/rooms">Rooms</Link>
           </li>

@@ -14,7 +14,7 @@
   z-index: -1; /* Place the video behind other content */
 }
 
-.main{
+/* .main{
   background-color: rgb(0, 0, 0);
   background-image:url(https://images.unsplash.com/photo-1583121358977-98c0a70698b7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
   background-attachment:fixed;
@@ -23,11 +23,31 @@
   box-sizing:border-box;
   font-family: 'Andika', sans-serif;
   position: relative;
+  width: 1535px;
+  /* margin-top: 30px; */
+/*} */
+.main {
+  background-color: rgb(0, 0, 0);
+  background-image: url(https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aG90ZWxzfGVufDB8fDB8fHww);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  box-sizing: border-box;
+  font-family: 'Andika', sans-serif;
+  position: relative;
   width: 1536px;
   /* margin-top: 30px; */
 }
-
-
+.main::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Adjust the color and opacity as needed */
+  z-index: 1; /* Place the overlay behind other content */
+}
 h1, h2, h3, h4, h5, h6{
   font-family: 'Julius Sans One', sans-serif;
   margin-bottom:20px;
@@ -41,7 +61,7 @@ h1, h2, h3, h4, h5, h6{
   align-items: center;
   width:100%;
   z-index:2;
-  height:100vh;
+  height:701px;
 }
 .container .card{
   vertical-align:top;
@@ -116,7 +136,7 @@ h1{
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-style: oblique;
   font-weight: 400;
-  color: rgb(255, 172, 172);
+  color: white;
 }
 
 

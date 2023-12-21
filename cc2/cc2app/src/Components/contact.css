@@ -17,31 +17,35 @@ margin-top: 350px;
     position: absolute;
     padding-top: 150px;
     bottom: 135px;
-    left: 12%
+    left: 50%
     /* margin-top: 20px; Adjust the margin as needed */
 }
 
 .contact-form {
     position: absolute;
-    bottom: 20px;
-    right: 20px;
+    bottom: 280px;
+    margin-left: 1100px;
+    
 }
 
 .contact-info {
     position: absolute;
     bottom: 70px;
-    left: 50%;
+    left: 20%;
     transform: translateX(-50%);
     display: flex;
     flex-direction: column;
 }
-
+.item123{
+    margin-top: -25px;
+}
 .info-item1,
 .info-item2,
 .info-item3 {
     margin-bottom: -35px;
-    padding-top: 20px;
+    padding-top: 15px;
     padding: 20px;
+    margin-left: 40px;
 }
 
 h3 {
@@ -73,39 +77,30 @@ textarea {
     border-radius: 4px;
 }
 
-button {
-    background-color: #0066cc;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
 
-button:hover {
-    background-color: #004080;
-}
 
+.info h1{
+    margin-top: 30px;
+}
 .info p {
     padding-left: 130px;
 }
 
-.also-reach-us {
-    color: white;
-    position: absolute;
-    bottom: 40px;
-    left: 12%;
-    /* Adjust the margin as needed */
-}
+
 
 .social-icons {
     display: flex;
     gap: 10px;
-    color: white;
+    color: #ffffff68;
 }
 
 .social-icons i {
+    opacity: 0.9;
+    transition: color 0.1s;
     font-size: 24px; /* Adjust the size as needed */
+}
+.social-icons i:hover {
+    color: #ffffff; /* Change the color to pure white on hover */
 }
 
 .info-image {
@@ -114,8 +109,24 @@ button:hover {
 
 .info-image img {
     width:1300px;
-    height:300px;
+    height:550px;
     display: relative;
     margin-top: 15px;
     margin-left: 130px;
 }
+/* Add this to your contact.css file */
+.brands {
+    h1 {
+        color: White; /* Change the color to your preferred default color */
+    }
+
+    p {
+        margin: 5px 0;
+        transition: color 0.5s; /* Add a smooth transition effect on color change */
+    }
+
+    p:hover {
+        color: whitesmoke; /* Change the color to your preferred hover color */
+    }
+}
+

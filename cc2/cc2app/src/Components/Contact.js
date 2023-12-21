@@ -13,38 +13,45 @@ const Contact = () => {
         </p>
       </div>
       <div className="info-image">
-        <img src={require("./contactimg.jpg")} alt="Informational Image" />
+        <img
+          src={
+            "https://images.unsplash.com/photo-1561501900-3701fa6a0864?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bHV4dXJ5JTIwaG90ZWx8ZW58MHx8MHx8fDA%3D"
+          }
+          alt="Informational"
+        />
       </div>
       <div className="bottom-elements">
         <div className="contact-info">
           <h1>Location</h1>
-          <div className="info-item1">
-            <h3>Address</h3>
-            <p>123 Main Street, Cityville, Country</p>
-          </div>
+          <div class="item123">
+            <div className="info-item1">
+              <h3>Address</h3>
+              <p>123 Main Street, Cityville, Country</p>
+            </div>
 
-          <div className="info-item2">
-            <h3>Email</h3>
-            <p>info@example.com</p>
-          </div>
+            <div className="info-item2">
+              <h3>Email</h3>
+              <p>info@example.com</p>
+            </div>
 
-          <div className="info-item3">
-            <h3>Phone</h3>
-            <p>+1 (555) 123-4567</p>
+            <div className="info-item3">
+              <h3>Phone</h3>
+              <p>+1 (555) 123-4567</p>
+            </div>
           </div>
         </div>
 
         <div className="brands">
-          <h1>Our Brands</h1>
-          <p>Brand 1</p>
-          <p>Brand 2</p>
-          <p>Brand 3</p>
-          <p>Brand 4</p>
-          <p>Brand 5</p>
+          <h1>Countries</h1>
+          <p>London</p>
+          <p>Australia</p>
+          <p>Tokyo</p>
+          <p>Coimbatore</p>
+          <p>Bangalore</p>
           {/* Add more brands as needed */}
         </div>
 
-        <div className="contact-form">
+        {/* <div className="contact-form">
           <h2>Get in Touch</h2>
           <form>
             <label htmlFor="name">Your Name:</label>
@@ -58,18 +65,18 @@ const Contact = () => {
 
             <button type="submit">Send Message</button>
           </form>
-        </div>
+        </div> */}
 
-        <div className="also-reach-us">
+        <div className="contact-form">
           <h1>Also Reach Us</h1>
           <div className="social-icons">
             {/* Add your social media icons here */}
             {/* For example, using Font Awesome icons */}
-            <i className="fa fa-facebook">fa</i>
-            <i className="fab fa-twitter">tw</i>
-            <i className="fab fa-instagram">in</i>
-            <i className="fab fa-linkedin">li</i>
-            <i className="fab fa-pinterest">pi</i>
+            <i className="fab fa-facebook"></i>
+            <i className="fab fa-twitter"></i>
+            <i className="fab fa-instagram"></i>
+            <i className="fab fa-linkedin"></i>
+            <i className="fab fa-pinterest"></i>
           </div>
         </div>
       </div>

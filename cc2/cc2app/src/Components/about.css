@@ -1,32 +1,78 @@
 /* about.css */
 
 .about-container {
-    height: 1000px;
-    max-width: 1600px;
-    margin-top: 15px;
-    /* margin: 100px; */
-    padding: 130px 40px 0 165px; /* Adjusted padding values */
-    /* background-image: url('path/to/your/image.jpg'); */ /* Uncomment and update the path to your image */
-    background-color: aliceblue;
-    background-position: center;
-    color: black; /* Set text color to contrast with the background */
+    
+        background-color: black;
+        height: auto;
+        width: 1519px;
+        padding: 160px 60px 50px 160px;
+        position: relative;
+    
   }
-
   
-  h1 {
-    color: black; /* Set heading color to contrast with the background */
+  .about-heading {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 20px;
   }
   
   p {
+    color: #555;
     line-height: 1.6;
-    margin-bottom: 18px;
-  }
-  h2.about-heading {
-    margin-top: 24px; /* Add margin-top to create space before "Our Team" heading */
-    color: black !important; /* Use !important to ensure this style takes precedence */
-  }
-  h1.about-heading {
-    margin-top: 24px; /* Add margin-top to create space before "Our Team" heading */
-    color: black !important; /* Use !important to ensure this style takes precedence */
+    margin-bottom: 20px;
   }
   
+  /* Style different heading levels */
+  .about-heading1 {
+    color: white;
+    font-size: 28px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .about-heading2 {
+    color:white;
+    font-size: 28px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  /* Add some color and styles to the list items */
+  .about-headingA li::before {
+    /* Unicode character for a bullet point */
+     /* Adjust the color as needed */
+    font-size: 18px;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  
+  /* Style the team section */
+  /* Assuming your team section is a paragraph at the end */
+  .about-container p:last-child {
+    margin-top: 40px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Add styles for the 'Thank you' paragraph */
+  .about-container p:last-child::before {
+    content: "\2014"; /* Unicode character for an em dash */
+    margin-right: 10px;
+  }
+  .about-headingA img {
+    max-width: 100%; /* Ensure the image does not exceed its container's width */
+    height: auto; /* Maintain the image's aspect ratio */
+    margin-top: 10px; /* Add some top margin for spacing */
+    display: block; /* Make sure the image doesn't have extra spacing underneath */
+  }

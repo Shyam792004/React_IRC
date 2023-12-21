@@ -1,23 +1,19 @@
-
-
 .navbar {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  background-color: black;
-  /* padding: 10px; */
+  background-color: rgba(0, 0, 0, 1); /* Set the alpha value to 1 for no transparency */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 1000;
   margin-top: 0px;
 }
-
 .logo {
   color: white;
   font-weight: bold;
   font-size: 45px;
+  margin-top: 2px;
   margin-right:350px ;
   margin-left: 130px;
 }

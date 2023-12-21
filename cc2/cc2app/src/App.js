@@ -1,16 +1,17 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./Components/Dashboard";
+import Home from "./Components/Home";
 import About from "./Components/About";
 import Contact from "./Components/Contact";
-import Dashboard from "./Components/Dashboard";
-import Foods from "./Components/Foods";
+import Landing from "./Components/Landing";
+// import Foods from "./Components/Foods";
 import Login from "./Components/Login";
 import Navbar from "./Components/Navbar";
 import Offers from "./Components/Offers";
 import Register from "./Components/Register";
 import Rooms from "./Components/Rooms";
 import Sidebar from "./Components/Sidebar";
+import Dashboard from "./Components/Dashboard";
 import Gallery from "./Components/Gallery";
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
     <Router>
       <Routes>
         <Route
-          path="/"
+          path="/home"
           element={
             <>
               <Sidebar />
@@ -48,22 +49,32 @@ function App() {
           }
         />
         <Route
-          path="/dashboard"
+          path="/"
           element={
             <>
               <Navbar />
               <Sidebar />
-              <Dashboard />
+              <Landing />
             </>
           }
         />
-        <Route
+        {/* <Route
           path="/foods"
           element={
             <>
               <Navbar />
               <Sidebar />
               <Foods />
+            </>
+          }
+        /> */}
+        <Route
+          path="/dashboard"
+          element={
+            <>
+              <Navbar />
+              <Sidebar />
+              <Dashboard />
             </>
           }
         />
