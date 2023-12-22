@@ -13,24 +13,18 @@ const Sidebar = ({ isOpen, onClose }) => {
       <div className="vertical">
         <ul>
           <li>
-            <Link to="/dashboard" className="sidebar-link" onClick={onClose}>
+            <Link to="/dashboard" className="sidebar-link">
               Dashboard
             </Link>
           </li>
           <li>
-            <Link to="/contact" className="sidebar-link" onClick={onClose}>
+            <Link to="/about" className="sidebar-link">
+              About
+            </Link>
+          </li>
+          <li>
+            <Link to="/contact" className="sidebar-link">
               Contact
-            </Link>
-          </li>
-          <li>
-            <Link to="/gallery" className="sidebar-link" onClick={onClose}>
-              Gallery
-            </Link>
-          </li>
-
-          <li>
-            <Link to="/foods" className="sidebar-link" onClick={onClose}>
-              la Cart^E
             </Link>
           </li>
         </ul>

@@ -42,7 +42,7 @@ const Contact = () => {
         </div>
 
         <div className="brands">
-          <h1>Countries</h1>
+          <h1>Services</h1>
           <p>London</p>
           <p>Australia</p>
           <p>Tokyo</p>

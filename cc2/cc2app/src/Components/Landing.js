@@ -14,7 +14,7 @@ const Landing = () => {
         <Navbar />
         <div className="center1">
           <h2>Welcome to </h2>
-          <h3>LeMeridean</h3>
+          <h3>Dreamland Inn</h3>
         </div>
       </div>
     </div>

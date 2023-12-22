@@ -17,7 +17,7 @@ const Navbar = () => {
       </div>
 
       <div className="logo">
-        <Link to="/">LeMeridean</Link>
+        <Link to="/landing">Dreamland Inn</Link>
       </div>
       <div className="navhor">
         <ul>
@@ -38,7 +38,7 @@ const Navbar = () => {
             <Link to="/contact">Contact</Link>
           </li>
           <li>
-            <Link to="/login" className="login-register-link">
+            <Link to="/" className="login-register-link">
               Login
             </Link>
           </li>

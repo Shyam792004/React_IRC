@@ -2,10 +2,10 @@
 import React from "react";
 import "./about.css";
 
-const AboutPage = () => {
+const About = () => {
   return (
     <div className="about-container">
-      <h1 className="about-heading">Welcome to LeMeridean</h1>
+      <h1 className="about-heading">Welcome to Dreamland Inn</h1>
       <p>
         At LeMeridean, we believe in providing unparalleled hospitality
         experiences that go beyond expectations. Nestled at the heart of
@@ -15,15 +15,15 @@ const AboutPage = () => {
 
       <h2 className="about-heading">Our Story</h2>
       <p>
-        Established in [Year], LeMeridean has been a beacon of elegance in the
-        hospitality industry. From our humble beginnings to becoming a renowned
-        name in the region, our journey has been guided by a commitment to
-        excellence and a passion for creating memorable moments.
+        Established in [Year], Dreamland Inn has been a beacon of elegance in
+        the hospitality industry. From our humble beginnings to becoming a
+        renowned name in the region, our journey has been guided by a commitment
+        to excellence and a passion for creating memorable moments.
       </p>
 
       <h2 className="about-heading">Our Mission</h2>
       <p>
-        At LeMeridean, our mission is to redefine the art of hospitality. We
+        At Dreamland Inn, our mission is to redefine the art of hospitality. We
         strive to create an ambiance that combines sophistication with warmth,
         ensuring every guest feels at home. Our dedicated team is committed to
         providing personalized services and exceeding the expectations of our
@@ -103,4 +103,4 @@ const AboutPage = () => {
   );
 };
 
-export default AboutPage;
+export default About;

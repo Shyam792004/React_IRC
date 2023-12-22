@@ -16,7 +16,7 @@ const Rooms = () => {
               alt="sd"
             />
             <div className="content">
-              <h1 className="font">Geneva</h1>
+              <h1 className="font">Deluxe</h1>
               <h2></h2>
               <center>
                 <h2 className="font">92%❤️</h2>
@@ -32,7 +32,7 @@ const Rooms = () => {
               alt="asd"
             />
             <div className="content">
-              <h1 className="font">Basel</h1>
+              <h1 className="font">Basic</h1>
               <h2></h2>
               <center>
                 <h2 className="font">Popular📈</h2>
@@ -50,7 +50,7 @@ const Rooms = () => {
               alt="ssd"
             />
             <div className="content">
-              <h1 className="font">Zurich</h1>
+              <h1 className="font">Brand</h1>
               <h2></h2>
               <center>
                 <h2 className="font">93%❤️</h2>
@@ -68,7 +68,7 @@ const Rooms = () => {
               alt="hsj"
             />
             <div className="content">
-              <h1 className="font">Saint Moritz</h1>
+              <h1 className="font">Legend</h1>
               <h2></h2>
               <center>
                 <h2 className="font">93%❤️</h2>

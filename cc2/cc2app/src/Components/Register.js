@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./login.css";
-import "./register.css";
+// import "./register.css";
 
 const Register = () => {
   return (
@@ -33,7 +33,7 @@ const Register = () => {
         <button>Register</button>
         <div className="register">
           <p>
-            Don't have an account <Link to="/login">Login</Link>
+            Don't have an account <Link to="/">Login</Link>
           </p>
         </div>
       </form>

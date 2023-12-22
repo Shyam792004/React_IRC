@@ -12,7 +12,7 @@ import Register from "./Components/Register";
 import Rooms from "./Components/Rooms";
 import Sidebar from "./Components/Sidebar";
 import Dashboard from "./Components/Dashboard";
-import Gallery from "./Components/Gallery";
+// import Gallery from "./Components/Gallery";
 
 function App() {
   return (
@@ -49,7 +49,7 @@ function App() {
           }
         />
         <Route
-          path="/"
+          path="/landing"
           element={
             <>
               <Navbar />
@@ -78,17 +78,8 @@ function App() {
             </>
           }
         />
-        <Route
-          path="/gallery"
-          element={
-            <>
-              <Navbar />
-              <Sidebar />
-              <Gallery />
-            </>
-          }
-        />
-        <Route path="/login" element={<Login />} />
+
+        <Route path="/" element={<Login />} />
         <Route
           path="/offers"
           element={

@@ -1,57 +1,49 @@
-    #photo-gallery-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    }
-    .photo-gallery-image-link {
-    display: inline-block;
-    margin-bottom: 8px;
-    width: calc(50% - 4px);
-    margin-right: 8px;
-    text-decoration: none;
-    color: black;
-    }
-    .photo-gallery-image-link:nth-of-type(2n) {
-    margin-right: 0;
-    }
-    @media screen and (min-width: 50em) {
-    .photo-gallery-image-link {
-    width: calc(25% - 6px);
-    }
-    .photo-gallery-image-link:nth-of-type(2n) {
-    margin-right: 8px;
-    }
-    .photo-gallery-image-link:nth-of-type(4n) {
-    margin-right: 0;
-    }
-    }
-    .photo-gallery-image-link:hover img {
-    transform: scale(1.15);
-    }
-    .responsive-photo-gallery-figure {
-    margin: 0;
-    overflow: hidden;
-    }
-    figcaption {
-    margin-top: 15px;
-    }
-    .responsive-galllery-photo {
-    border: none;
-    max-width: 100%;
-    height: auto;
-    display: block;
-    background: #ccc;
-    transition: transform .2s ease-in-out;
-    }
+#photo-gallery-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
 
-    .gallerycontainer
-    {
-      padding-top: 50px;
+.responsive-photo-gallery-figure {
+  margin: 0;
+  overflow: hidden;
+}
 
-      margin-top: 130px;
-      background-color: white;
-      color:black;
-    }
-    .gallerycontainer h1{
-      color:black;
-      padding-left:10px;
-    }
+figcaption {
+  margin-top: 15px;
+}
+
+.responsive-galllery-photo {
+  border: none;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  background: #ccc;
+  transition: transform 0.2s ease-in-out;
+}
+
+.gallerycontainer {
+  padding-top: 50px;
+  margin-top: 130px;
+  background-color: black;
+  color: black;
+}
+
+.gallerycontainer h1 {
+  color: white;
+  padding-left: 10px;
+}
+#photo-gallery-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Adjust the alignment as needed */
+}
+
+.photo-gallery-image-link {
+  display: inline-block;
+  margin-bottom: 8px;
+  width: calc(25% - 6px); /* Adjust width to fit four images in a row with margins */
+  text-decoration: none;
+  color: white;
+}
+
+/* Rest of your existing CSS styles */

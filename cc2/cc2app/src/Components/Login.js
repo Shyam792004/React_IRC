@@ -19,7 +19,7 @@ const Login = () => {
     // Handle regular login logic here
     if (email === "shyam@gmail.com" && password === "shyam79") {
       // Navigate to the home page after successful login
-      navigate("/");
+      navigate("/landing");
     } else {
       // Display appropriate error messages
       if (email !== "shyam@gmail.com" && password !== "shyam79") {
@@ -65,7 +65,9 @@ const Login = () => {
             <input type="checkbox" />
             Remember Me
           </label>
-          <Link to="#">#Forget Password</Link>
+          <Link to="https://support.google.com/accounts/answer/41078?hl=en&co=GENIE.Platform%3DDesktop">
+            #Forget Password
+          </Link>
         </div>
         <button type="submit">Log in</button>
         <div className="register">
