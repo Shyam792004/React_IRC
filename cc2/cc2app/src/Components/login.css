@@ -12,7 +12,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-image: url(C:\Users\Suganya\OneDrive\Documents\GitHub\React_IRC\Day4cc\ccreactapp\src\Components\bgA.jpg);
+  background-image: url(C:\Users\Suganya\OneDrive\Documents\GitHub\React_IRC\cc2\cc2app\src\Components\bgA.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -24,9 +24,11 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.8); /* Adjust background color and opacity as needed */
+  background-color: rgba(0, 0, 0, 0.8);
+  /* Adjust background color and opacity as needed */
   padding: 10px;
-  z-index: 1000; /* Ensure the navbar is on top of other elements */
+  z-index: 1000;
+  /* Ensure the navbar is on top of other elements */
 }
 
 /* Content Styles */
@@ -41,7 +43,8 @@ body {
   justify-content: center;
   align-items: center;
   padding: 2rem 3rem;
-  margin-top: 55px; /* Adjust the margin-top to leave space for the navbar */
+  margin-top: 55px;
+  /* Adjust the margin-top to leave space for the navbar */
 }
 
 h1 {
@@ -81,14 +84,15 @@ h1 {
   border: none;
   outline: none;
   font-size: 1rem;
-  padding: 25px 5px 5px 5px; /* Adjusted padding to ensure text stays in the input */
+  padding: 25px 5px 5px 5px;
+  /* Adjusted padding to ensure text stays in the input */
   color: #fff;
 }
 
 /* ... your existing styles ... */
 
-input:focus ~ label,
-input:valid ~ label {
+input:focus~label,
+input:valid~label {
   top: 10px;
 }
 
@@ -127,15 +131,17 @@ input:valid ~ label {
 .forget label input {
   margin-right: 1px;
 }
+
 .forget input[type="checkbox"] {
 
   margin-bottom: -10px;
-   
+
 }
-.forget  {
-  color:#fff;
-  
-   
+
+.forget {
+  color: #fff;
+
+
 }
 
 

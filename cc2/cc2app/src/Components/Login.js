@@ -1,13 +1,13 @@
 // Login.js
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
-import "./login.css";
+import { Toaster, toast } from "react-hot-toast";
 
 const Login = () => {
   const navigate = useNavigate();
 
   const handleGoogleLogin = () => {
-    alert("Google login successful!");
+    toast.success("Google login successful!");
     // You can add additional logic for Google login if needed
     // For example, you might want to authenticate the user with a server
   };
@@ -23,11 +23,11 @@ const Login = () => {
     } else {
       // Display appropriate error messages
       if (email !== "shyam@gmail.com" && password !== "shyam79") {
-        alert("Wrong Mail ID and Password");
+        toast.error("Wrong Mail ID and Password");
       } else if (email !== "shyam@gmail.com") {
-        alert("Wrong Mail ID");
+        toast.error("Wrong Mail ID");
       } else if (password !== "shyam79") {
-        alert("Wrong Password");
+        toast.error("Wrong Password");
       }
     }
   };
@@ -74,6 +74,7 @@ const Login = () => {
           Don't have an account <Link to="/register">Register</Link>
         </div>
       </form>
+      <Toaster position="top-center" />
     </div>
   );
 };
